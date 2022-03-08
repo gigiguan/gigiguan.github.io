@@ -1,8 +1,11 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/gigiguan/gigi/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Github page actions
+### 5.1
+1. Come up with three of your own Beneficial and corresponding Harmful Effects of Computing
+2. Talk about dopamine issues above. Real? Parent conspiracy? Anything that is impacting your personal study and success in High School?
+### 5.2
+1. How does someone empower themself in a digital world?
+2. How does someone that is empowered help someone that is not empowered? Describe something you could do at Del Norte HS.
+3. Is paper or red tape blocking digital empowerment? Are there such barriers at Del Norte? Elsewhere?
 
 ### Markdown
 
