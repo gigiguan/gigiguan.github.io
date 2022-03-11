@@ -54,7 +54,17 @@ def five():
 def six():
     print('Enjoy your \'Iced White Chocolate Mocha\'')
 
+def swap1(option, option2):
+    if option > option2:
+        option2, option = option, option2  # swap values
+    return option, option2  # return 2 values
 
+def swap1_helper(option, option2):
+    print("This is your order: ", option, option2)
+    option, option2 = swap1(option, option2)
+    print("We recommend you drink them in this order: ", option, option2)
+    print()
+    # no return value
 
 # call functions based on input choice
 def runOptions():
@@ -75,16 +85,31 @@ def runOptions():
             elif option == 6:
                 six()
 
-
-            # Exit menu
+        # Exit menu
             elif option == 7:
                 print('Thank you! Good Bye...')
                 exit() # exit out of the (infinite) while loop
+            option2 = int(input('What else would you like to order? (1-7)'))
+            if option2 == 1:
+                one()
+            elif option2 == 2:
+                two()
+            elif option2 == 3:
+                three()
+            elif option2 == 4:
+                four()
+            elif option2 == 5:
+                five()
+            elif option2 == 6:
+                six()
+
             else:
                 print('Invalid option. Please enter a number between 1 and 7.')
+            swap1_helper(option, option2)
         except ValueError:
             print('Invalid input. Please enter an integer input.')
 
 if __name__=='__main__':
     # print_menu1()
     print_menu2()
+    swap1_helper()
