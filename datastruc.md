@@ -1,6 +1,3 @@
-layout: page
-title: "Data Structures"
-permalink: https://gigiguan.github.io/datastruc
 ### **Data Structures**
 [Runtime](https://replit.com/@GigiGuan/gigiguangithubio#main.py)
 ```
