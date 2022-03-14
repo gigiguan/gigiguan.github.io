@@ -71,7 +71,7 @@ def six():
     print('Enjoy your \'Iced White Chocolate Mocha\'')
 
 
-
+```
 # call functions based on input choice
 def runOptions():
     # infinite loop to accept/process user menu choice
@@ -104,9 +104,11 @@ def runOptions():
 if __name__=='__main__':
     # print_menu1()
     print_menu2()
-    
+ ```
+ 
     
 ##Data Structures Challenge
+```
 def tree():
     n = int(input("How many rows: "))
     # number of spaces
@@ -129,6 +131,7 @@ def tree():
 
 if __name__ == "__main__":
     tree()
+```
 
 ##**Create Task**
 [Create Task](https://github.com/christinlee367/n225_FireEradicatorsTheSequel/wiki/Gigi's-Create-Task)
