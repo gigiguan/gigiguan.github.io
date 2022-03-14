@@ -1,6 +1,3 @@
-layout: page
-title: "Create Task"
-permalink: https://gigiguan.github.io/create
 ## **Create Task**
 [Runtime](https://www.youtube.com/watch?v=v8RZpsUFwvw&feature=youtu.be)
  ```
