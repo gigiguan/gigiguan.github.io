@@ -13,6 +13,7 @@
 3. Red tape is defined as a lot of official forms and procedures that are involved before something is accomplished. I think it can affect digital empowerment as individuals may feel overwhelmed by the amount of red tape before they even access something that allows them to empower themselves in the digital world. I There are such barriers at Del Norte. For example, students have to get tons of signatures and fill out numerous forms just to take or drop a course of their choice. Red tape is particularly burdensome to smaller businesses. Smaller businesses can drown in a sea of red tape, as there are so many requirements and documents that they have to follow before they start up their business. 
 
 ### **Data Structures**
+[Runtime](https://replit.com/@GigiGuan/gigiguangithubio#main.py)
 ```
 # Menu options in print statement
 def print_menu1():
@@ -100,6 +101,7 @@ if __name__=='__main__':
  ```
  
 ### Data Structures Challenge
+[Runtime](https://replit.com/@GigiGuan/gigiguangithubio#tree.py)
 ```
 def tree():
     n = int(input("How many rows: "))
@@ -126,6 +128,7 @@ if __name__ == "__main__":
 ```
 
 ## **Create Task**
+[Runtime](https://www.youtube.com/watch?v=v8RZpsUFwvw&feature=youtu.be)
  ```
 def adFunc(a, val):
     for i in range(val -1):
@@ -172,4 +175,3 @@ if __name__ == "__main__":
     adFunc(a, val)
     deFunc(a, val)
  ```
-[Runtime](https://www.youtube.com/watch?v=v8RZpsUFwvw&feature=youtu.be)
