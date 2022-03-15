@@ -13,12 +13,11 @@
 3. Red tape is defined as a lot of official forms and procedures that are involved before something is accomplished. I think it can affect digital empowerment as individuals may feel overwhelmed by the amount of red tape before they even access something that allows them to empower themselves in the digital world. I There are such barriers at Del Norte. For example, students have to get tons of signatures and fill out numerous forms just to take or drop a course of their choice. Red tape is particularly burdensome to smaller businesses. Smaller businesses can drown in a sea of red tape, as there are so many requirements and documents that they have to follow before they start up their business. 
 
 ### 5.3
-1. Does the owner of the computer think this was intentional?
-2. If yes or no, justify you conclusion.
-3. How do you think this happened?
-4. Is this harmful? Was it intended to be harmful or exclude?
-5. Should it be corrected?
-6. What would you or should you do to produce a better outcome?
+1. The owner of the computer does think this was intentional because he stated firmly that he thinks HP computers are racist.
+2. This might have happened because the developer team of HP computers are not diverse enough. A diverse developer team is necessary to prevent computer bias.
+3. This is harmful because users are experiencing unfair treatments regarding the facial recognition scan. However, it probably wasn't intended to be harmful or exclude. It's just that the developer team are not diverse enough to realize potential biases evident among them.
+4. It should be corrected because every user deserves to experience the same experience regardless of their differences. 
+5. To produce a better outcome, we need to create developer teams that are diverse in every aspect, from ethnicity to gender, to account for all possible differences of the users.
 
 ### 5.4
 1. CompSci has 150 principles students. Describe a crowdsource idea and how you might initiate it in our environment?
