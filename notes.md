@@ -20,7 +20,7 @@
 5. To produce a better outcome, we need to create developer teams that are diverse in every aspect, from ethnicity to gender, to account for all possible differences of the users.
 
 ### 5.4
-1. CompSci has 150 principles students. Describe a crowdsource idea and how you might initiate it in our environment?
-2. What about Del Norte crowdsourcing? Could your final project be better with crowdsourcing?
+1. CompSci has 150 principles students. Describe a crowdsource idea and how you might initiate it in our environment? 
+2. Our final project is a website to spread awareness about mental health. Our final project could be better with crowdsourcing. For example, we can conduct surveys among Del Norte students about how stressful they're feeling and the cause of their stress. This would allow us to better understand the problem underlying our campus so we can develop a website that is actually beneficial to the students with mental illness.
 
 
