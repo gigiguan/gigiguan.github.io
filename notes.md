@@ -12,3 +12,16 @@
 
 3. Red tape is defined as a lot of official forms and procedures that are involved before something is accomplished. I think it can affect digital empowerment as individuals may feel overwhelmed by the amount of red tape before they even access something that allows them to empower themselves in the digital world. I There are such barriers at Del Norte. For example, students have to get tons of signatures and fill out numerous forms just to take or drop a course of their choice. Red tape is particularly burdensome to smaller businesses. Smaller businesses can drown in a sea of red tape, as there are so many requirements and documents that they have to follow before they start up their business. 
 
+### 5.3
+1. Does the owner of the computer think this was intentional?
+2. If yes or no, justify you conclusion.
+3. How do you think this happened?
+4. Is this harmful? Was it intended to be harmful or exclude?
+5. Should it be corrected?
+6. What would you or should you do to produce a better outcome?
+
+### 5.4
+1. CompSci has 150 principles students. Describe a crowdsource idea and how you might initiate it in our environment?
+2. What about Del Norte crowdsourcing? Could your final project be better with crowdsourcing?
+
+
