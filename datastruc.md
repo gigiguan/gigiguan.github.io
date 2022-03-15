@@ -1,4 +1,4 @@
-### **Data Structures**
+### **Data Structures Week 0**
 [Runtime](https://replit.com/@GigiGuan/gigiguangithubio#main.py)
 ```
 # Menu options in print statement
