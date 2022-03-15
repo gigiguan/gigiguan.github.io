@@ -1,4 +1,5 @@
-### **Data Structures Week 0**
+## **Data Structures Project**
+### **Week 0**
 [Runtime](https://replit.com/@GigiGuan/gigiguangithubio#main.py)
 ```
 # Menu options in print statement
@@ -86,7 +87,7 @@ if __name__=='__main__':
     print_menu2()
  ```
  
-### Data Structures Challenge
+### Week 0 Data Structures Challenge
 [Runtime](https://replit.com/@GigiGuan/gigiguangithubio#tree.py)
 ```
 def tree():
@@ -112,4 +113,6 @@ def tree():
 if __name__ == "__main__":
     tree()
 ```
+### **Week 1**
+
 
