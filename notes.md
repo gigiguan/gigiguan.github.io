@@ -20,7 +20,7 @@
 5. To produce a better outcome, we need to create developer teams that are diverse in every aspect, from ethnicity to gender, to account for all possible differences of the users.
 
 ### 5.4
-1. CompSci has 150 principles students. Describe a crowdsource idea and how you might initiate it in our environment? 
-2. Our final project is a website to spread awareness about mental health. Our final project could be better with crowdsourcing. For example, we can conduct surveys among Del Norte students about how stressful they're feeling and the cause of their stress. This would allow us to better understand the problem underlying our campus so we can develop a website that is actually beneficial to the students with mental illness.
+1. A crowdsrouce idea for CompSci's 150 principles students is a "Design My Ideal CSP Class" app. This app would allow students to design how they would want the class to go and create their very own CSP-related activities. Then, teachers could use the ideas that these students submitted in the app as inspiration for how they can teach the class next year.
+2. Our final project is a website to spread awareness about mental health. Our final project could be better with crowdsourcing. For example, we can prompt the user to answer questions upon opening our website, perhaps about how stressful they're feeling and the cause of their stress/mental illness. This would allow us to better understand the problem underlying our campus so we can refine our website to include more features targetting differenct causes of mental illness/stress to benefit as many students as possible.
 
 
