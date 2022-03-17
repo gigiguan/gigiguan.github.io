@@ -1,3 +1,5 @@
+{% include navigation.html %}
+
 ## **Github page actions**
 ### 5.1
 1. One aspect of technology that has had a great impact on society is how it affects learning. It’s made learning more interactive and collaborative, this helps people better engage with the material that they are learning and have trouble with. Another way technology has impacted society is through communication, how we can easily and quickly communicate with one another worldwide. It also allows for the easier access of information worldwide. Some of the negative effects of computers are human's break their social interact with friends and families, cause mental health problems like depression, and poor physical health. Computer addiction is really dangerous to our lives and has consequences that can affect academic performance as well.
