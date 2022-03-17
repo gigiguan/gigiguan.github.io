@@ -1,3 +1,5 @@
+{% include navigation.html %}
+
 ## **Data Structures Project**
 ### **Week 0**
 [Runtime](https://replit.com/@GigiGuan/gigiguangithubio#main.py)
