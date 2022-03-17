@@ -1,3 +1,5 @@
+{% include navigation.html %}
+
 ## **Table of Contents**
 1. [Test Prep Study](https://gigiguan.github.io/notes)
 2. [Data Structures Project](https://gigiguan.github.io/datastruc)
