@@ -1,8 +1,10 @@
 {% include navigation.html %}
 
 ## **Data Structures Project**
+### **Week 1**
+
 ### **Week 0**
-[Runtime](https://replit.com/@GigiGuan/gigiguangithubio#main.py)
+Check Replit in navbar or [Runtime link](https://replit.com/@GigiGuan/gigiguangithubio#main.py)
 ```
 # Menu options in print statement
 def print_menu1():
@@ -90,7 +92,7 @@ if __name__=='__main__':
  ```
  
 ### Week 0 Data Structures Challenge
-[Runtime](https://replit.com/@GigiGuan/gigiguangithubio#tree.py)
+Check Replit in navbar or [Runtime](https://replit.com/@GigiGuan/gigiguangithubio#tree.py)
 ```
 def tree():
     n = int(input("How many rows: "))
@@ -115,6 +117,5 @@ def tree():
 if __name__ == "__main__":
     tree()
 ```
-### **Week 1**
 
 
