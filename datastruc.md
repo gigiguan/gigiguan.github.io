@@ -1,6 +1,6 @@
 {% include navigation.html %}
 
-## **Data Structures Project**
+## **Code**
 ### **Week 1**
 
 ### **Week 0**
