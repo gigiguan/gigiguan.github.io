@@ -1,141 +1,96 @@
-"""
-Introduction to Console Programming
-Writing a function to print a menu
-"""
+import menu
+import tree
+import hacks
+import fib
+
+main_menu = [
+    ["Menu/Swap", menu.print_menu2],
+    ["Tree", tree.tree],
+    ["Fibonacci", fib.fibonacci],
+]
+
+sub_menu = [
+    ["Factors", None],
+    ["GCD", None],
+    ["LCM", None],
+    ["Primes", None],
+]
+
+patterns_sub_menu = [
+    ["For Loop", hacks.for_loop],
+    ["While Loop", hacks.while_loop],
+    ["Recursive Loop", hacks.recursive_loop],
+]
+
+border = "=" * 25
+banner = f"\n{border}\nPlease Select An Option\n{border}"
 
 
-# Menu options in print statement
-def print_menu1():
-    print('1 -- Kiwi Starfruit Drink' )
-    print('2 -- Dragon Drink' )
-    print('3 -- Pink Drink' )
-    print('4 -- Vanilla Latte' )
-    print('5 -- Green Tea Creme Frappuccino' )
-    print('6 -- Iced White Chocolate Mocha' )
-    print('7 -- Exit' )
-    runOptions()
+
+def patterns_submenuc():
+    title = "Class Submenu" + banner
+    m = questy.Menu(title, patterns_sub_menu)
+    m.menu()
 
 
-# Menu options as a dictionary
-menu_options = {
-    1: 'Kiwi Starfruit Drink',
-    2: 'Dragon Drink',
-    3: 'Pink Drink',
-    4: 'Vanilla Latte',
-    5: 'Green Tea Creme Frappuccino',
-    6: 'Iced White Chocolate Mocha',
-    7: 'Exit',
-}
+def menu():
+    title = "Function Menu" + banner
+    menu_list = main_menu.copy()
+    menu_list.append(["Loops", patterns_submenu])
+    buildMenu(title, menu_list)
 
-# Print menu options from dictionary key/value pair
-def print_menu2():
-    for key in menu_options.keys():
-        print(key, '--', menu_options[key] )
-    runOptions()
+def submenu():
+    title = "Function Submenu" + banner
+    buildMenu(title, sub_menu)
+def patterns_submenu():
+    title = "Patterns Submenu" + banner
+    buildMenu(title, patterns_sub_menu)
 
-# menu option 1
-def one():
-    print('Enjoy your \' Kiwi Starfruit Drink\'')
+def buildMenu(banner, options):
+    # header for menu
+    print(banner)
+    # build a dictionary from options
+    prompts = {0: ["Exit", None]}
+    for op in options:
+        index = len(prompts)
+        prompts[index] = op
 
-# menu option 2
-def two():
-    print('Enjoy your \'Dragon Drink\'')
+    # print menu or dictionary
+    for key, value in prompts.items():
+        print(key, '->', value[0])
 
-# menu option 3
-def three():
-    print('Enjoy your \'Pink Drink\'')
+    # get user choice
+    choice = input("Type your choice> ")
 
-def four():
-    print('Enjoy your \'Vanilla Latte\'')
-
-def five():
-    print('Enjoy your \'Green Tea Creme Frappuccino\'')
-
-def six():
-    print('Enjoy your \'Iced White Chocolate Mocha\'')
-
-def swap1(option, option2):
-    if option > option2:
-        option2, option = option, option2  # swap values
-    return option, option2  # return 2 values
-
-def swap1_helper(option, option2):
-    print("This is your order: ", option, option2)
-    option, option2 = swap1(option, option2)
-    print("We recommend you drink them in this order: ", option, option2)
-    print()
-    # no return value
-
-# call functions based on input choice
-def runOptions():
-    # infinite loop to accept/process user menu choice
-    while True:
+    # validate choice and run
+    # execute selection
+    # convert to number
+    try:
+        choice = int(choice)
+        if choice == 0:
+            # stop
+            return
         try:
-            option = int(input('What would you like to order today? (enter 1-7) '))
-            if option == 1:
-                one()
-            elif option == 2:
-                two()
-            elif option == 3:
-                three()
-            elif option == 4:
-                four()
-            elif option == 5:
-                five()
-            elif option == 6:
-                six()
+            # try as function
+            action = prompts.get(choice)[1]
+            action()
+        except TypeError:
+            try:  # try as playground style
+                exec(open(action).read())
+            except FileNotFoundError:
+                print(f"File not found!: {action}")
+            # end function try
+        # end prompts try
+    except ValueError:
+        # not a number error
+        print(f"Not a number: {choice}")
+    except UnboundLocalError:
+        # traps all other errors
+        print(f"Invalid choice: {choice}")
+    # end validation try
 
-        # Exit menu
-            elif option == 7:
-                print('Thank you! Good Bye...')
-                exit() # exit out of the (infinite) while loop
-            option2 = int(input('What else would you like to order? (1-7)'))
-            if option2 == 1:
-                one()
-            elif option2 == 2:
-                two()
-            elif option2 == 3:
-                three()
-            elif option2 == 4:
-                four()
-            elif option2 == 5:
-                five()
-            elif option2 == 6:
-                six()
+    buildMenu(banner, options)  # recursion, start menu over again
 
-            else:
-                print('Invalid option. Please enter a number between 1 and 7.')
-            swap1_helper(option, option2)
-        except ValueError:
-            print('Invalid input. Please enter an integer input.')
-
-
-# Tree
-
-def tree():
-    print("TREES")
-
-    n = int(input("How many rows: "))
-    # number of spaces
-    k = n - 1
-    # outer loop to handle number of rows
-    for i in range(0, n):
-        # inner loop to handle number spaces
-        # values changing acc. to requirement
-        for j in range(0, k):
-            print(end=" ")
-        # decrementing k after each loop
-        k = k - 1
-        # inner loop to handle number of columns
-        # values changing acc. to outer loop
-        for j in range(0, i+1):
-            # printing stars
-            print("* ", end="")
-        # ending line after each row
-        print(" ")
-    print("--------------")
 
 if __name__ == "__main__":
-    tree()
-    print_menu2()
-    swap1_helper()
+    menu()

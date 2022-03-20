@@ -31,6 +31,7 @@ def fibonacci():
     return 
   
 def fibonacci1(n):
+
     if n < 0:
         print("Incorrect input")
     elif n == 0:
@@ -41,3 +42,4 @@ def fibonacci1(n):
  
     else:
         return fibonacci1(n-1) + fibonacci1(n-2)
+
