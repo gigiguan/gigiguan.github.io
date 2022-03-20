@@ -1,3 +1,6 @@
+{% include navigation.html %}
+
+
 ## About Me
 ☁ 𝓖𝓲𝓰𝓲 𝓖𝓾𝓪𝓷 ☁
 ✨ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴀɴᴀɢᴇʀ ᴀɴᴅ ᴅᴇᴠᴇʟᴏᴘᴇʀ
