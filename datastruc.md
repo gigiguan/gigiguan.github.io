@@ -2,9 +2,11 @@
 
 ## **Code**
 ### **Week 1**
+Check Replit(navbar) for runtime
+
 
 ### **Week 0**
-Check Replit in navbar or [Runtime link](https://replit.com/@GigiGuan/gigiguangithubio#main.py)
+Check Replit(navbar) for runtime
 ```
 # Menu options in print statement
 def print_menu1():
@@ -92,7 +94,7 @@ if __name__=='__main__':
  ```
  
 ### Week 0 Data Structures Challenge
-Check Replit in navbar or [Runtime](https://replit.com/@GigiGuan/gigiguangithubio#tree.py)
+Check Replit(navbar) for runtime
 ```
 def tree():
     n = int(input("How many rows: "))
