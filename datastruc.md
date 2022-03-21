@@ -104,10 +104,12 @@ def fibonacci():
             try:
                 print(fibonacci1(n),end = " ")
                 n+=1
+                print()
+
             except ValueError:
                 print('Invalid input. Please enter an integer input.')
-    print()
-    return
+        else:
+            return
 
 def fibonacci1(n):
     # Check if input is 0 then it will
