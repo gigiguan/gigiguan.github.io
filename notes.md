@@ -25,4 +25,14 @@
 1. A crowdsrouce idea for CompSci's 150 principles students is a "Design My Ideal CSP Class" app. This app would allow students to design how they would want the class to go and create their very own CSP-related activities. Then, teachers could use the ideas that these students submitted in the app as inspiration for how they can teach the class next year.
 2. Our final project is a website to spread awareness about mental health. Our final project could be better with crowdsourcing. For example, we can prompt the user to answer questions upon opening our website, perhaps about how stressful they're feeling and the cause of their stress/mental illness. This would allow us to better understand the problem underlying our campus so we can refine our website to include more features targetting differenct causes of mental illness/stress to benefit as many students as possible.
 
+### 5.5
+1. When you create a GitHub repository it requests a license type. Review the license types in relationship to this Tech Talk and make some notes in GitHub pages.
+2. Make a license for your personal and Team project. Document license you picked and why.
 
+### 5.6
+1. Describe PII you have seen on project in CompSci Principles.
+2. What are your feelings about PII and your exposure?
+3. Describe good and bad passwords? What is another step that is used to assist in authentication.
+4. Try to describe Symmetric and Asymmetric encryption.
+5. Provide and example of encryption we used in deployment.
+6. Describe a phishing scheme you have learned about the hard way. Describe some other phishing techniques.
