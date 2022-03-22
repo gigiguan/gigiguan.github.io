@@ -30,9 +30,9 @@
 2. Make a license for your personal and Team project. Document license you picked and why.
 
 ### 5.6
-1. Describe PII you have seen on project in CompSci Principles.
-2. What are your feelings about PII and your exposure?
-3. Describe good and bad passwords? What is another step that is used to assist in authentication.
+1. I've seen PII on our projects in CSP on our about me pages where we revealed our names, email, and picture (toggle masks). These things can be known by everyone because everyone can access our deployed website.
+2. Some PII needs to stay absolutely secret, such as our social security numbers or credit card numbers, while some can be revealed to public, such as our name and email. We need to be aware of what information we're giving online. For example, if an online organization suffers a data breach, a significant concern is what PII might be exposed—the personal data of the customers that do business or otherwise interact with the entity. Exposed PII can be sold on the dark web and used to commit identity theft, putting the customers at risk.
+3. Good passwords include numbers, capitlized and lower case letters, as well as special characters, in more than 8 characters. Bad passwords are those that have a pattern or does not have complexity such as 12345. Another step that is used to assist in authentication is secondary verification/two-step authentication. For example, some platforms may ask for an email or phone number code verification after the user enters their password.
 4. Try to describe Symmetric and Asymmetric encryption.
-5. Provide and example of encryption we used in deployment.
+5. An example we use in deployment is the key .pem file. I use Amazon AWS to deploy and when I create my EC2 instance on AWS, it creates a .pem file for me that I can use as an identification key to allow me to access my instance everytime I want to deploy. The .pem file is only accessible by me and can only be downloaded once. This prevents other users from connceting to my instance.
 6. Describe a phishing scheme you have learned about the hard way. Describe some other phishing techniques.
