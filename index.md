@@ -22,16 +22,15 @@ Week 2 Factorial Class, Math imperative and Class, Palindrome imperative and cla
     <td>1</td>
     <td>March 14 - 18</td>
     <td>Car List, Fibonacci</td>
-    <td>Review Ticket<a href="https://github.com/gigiguan/gigiguan.github.io/issues/2">Review Ticket</a></td>
+    <td><a href="https://github.com/gigiguan/gigiguan.github.io/issues/2">Review Ticket</a></td>
    </tr>
    
    <tr>
     <td>0</td>
     <td>March 7 - 11</td>
     <td>Menu, Tree, Matrix, Swap</td>
-    <td>Review Ticket<a href="https://github.com/nighthawkcoders/nighthawk_csp/wiki/Tri-3-TPT-0.1-related-to-Beneficial-and-Harmful-Effects-of-Computing-Big-Idea-5.1">5.1</a>-<a href="https://github.com/nighthawkcoders/nighthawk_csp/wiki/Tri-3-TPT-0.2-related-to-Digital-Divide-Big-Idea-5.2">5.2</a></td>
-    <td><a href="https://github.com/nighthawkcoders/nighthawk_csp/wiki/Tri-3---TT0---Python-Menu,-Replit,-Github">TT0 Python Menu, Replit, GitHub</a></td>
-    <td><a href="https://poway.instructure.com/courses/112335/assignments/2043640">Plans, Team, Jobs</a></td>
+    <td><a href="https://github.com/gigiguan/gigiguan.github.io/issues/1">Review Ticket</a></td>
+
    </tr>
 </table>
 
