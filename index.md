@@ -22,9 +22,7 @@ Week 2 Factorial Class, Math imperative and Class, Palindrome imperative and cla
     <td>1</td>
     <td>March 14 - 18</td>
     <td>Car List, Fibonacci</td>
-    <td>Review Ticket<a href="https://github.com/gigiguan/gigiguan.github.io/issues/2">5.3</a>-<a href="https://github.com/nighthawkcoders/nighthawk_csp/wiki/Tri-3-TPT-1.1-Crowdsourcing--5.4">5.4</a></td>    
-    <td><a href="https://github.com/nighthawkcoders/nighthawk_csp/wiki/Tri-3-TT1---Data-Structures">TT1 Data Structures 1</a></td>
-    <td><a href="https://poway.instructure.com/courses/112335/assignments/2057997">Lists and Loops</a></td>
+    <td>Review Ticket<a href="https://github.com/gigiguan/gigiguan.github.io/issues/2"></td>
    </tr>
    
    <tr>
