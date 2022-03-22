@@ -13,7 +13,7 @@ Week 2 Factorial Class, Math imperative and Class, Palindrome imperative and cla
     <td>2</td>
     <td>March 21 - 25</td>
     <td>Factorial Class, Math imperative and Class, Palindrome imperative and class</td>
-    <td>TPT <a href="https://github.com/nighthawkcoders/nighthawk_csp/wiki/Tri-3-TPT-2.0-Legal-and-Ethical-Concerns-5.5">5.5</a>-<a href="https://github.com/nighthawkcoders/nighthawk_csp/wiki/Tri-3-TPT-2.0-Safe-Computing-5.6">5.6</a></td>
+    <td>Review Ticket<a href="https://github.com/nighthawkcoders/nighthawk_csp/wiki/Tri-3-TPT-2.0-Legal-and-Ethical-Concerns-5.5">5.5</a>-<a href="https://github.com/nighthawkcoders/nighthawk_csp/wiki/Tri-3-TPT-2.0-Safe-Computing-5.6">5.6</a></td>
     <td><a href="https://github.com/nighthawkcoders/nighthawk_csp/wiki/Tri-3-TT2-Python-Classes">TT2 Data Structures 2</a></td>
       <td><a href="https://poway.instructure.com/courses/112335/assignments/2062669">Classy Functions</a></td>
    </tr>
@@ -22,7 +22,7 @@ Week 2 Factorial Class, Math imperative and Class, Palindrome imperative and cla
     <td>1</td>
     <td>March 14 - 18</td>
     <td>Car List, Fibonacci</td>
-    <td>TPT <a href="https://github.com/nighthawkcoders/nighthawk_csp/wiki/Tri-3-TPT-1.0-Computing-Bias-5.3">5.3</a>-<a href="https://github.com/nighthawkcoders/nighthawk_csp/wiki/Tri-3-TPT-1.1-Crowdsourcing--5.4">5.4</a></td>    
+    <td>Review Ticket<a href="https://github.com/gigiguan/gigiguan.github.io/issues/2">5.3</a>-<a href="https://github.com/nighthawkcoders/nighthawk_csp/wiki/Tri-3-TPT-1.1-Crowdsourcing--5.4">5.4</a></td>    
     <td><a href="https://github.com/nighthawkcoders/nighthawk_csp/wiki/Tri-3-TT1---Data-Structures">TT1 Data Structures 1</a></td>
     <td><a href="https://poway.instructure.com/courses/112335/assignments/2057997">Lists and Loops</a></td>
    </tr>
@@ -31,7 +31,7 @@ Week 2 Factorial Class, Math imperative and Class, Palindrome imperative and cla
     <td>0</td>
     <td>March 7 - 11</td>
     <td>Menu, Tree, Matrix, Swap</td>
-    <td>TPT <a href="https://github.com/nighthawkcoders/nighthawk_csp/wiki/Tri-3-TPT-0.1-related-to-Beneficial-and-Harmful-Effects-of-Computing-Big-Idea-5.1">5.1</a>-<a href="https://github.com/nighthawkcoders/nighthawk_csp/wiki/Tri-3-TPT-0.2-related-to-Digital-Divide-Big-Idea-5.2">5.2</a></td>
+    <td>Review Ticket<a href="https://github.com/nighthawkcoders/nighthawk_csp/wiki/Tri-3-TPT-0.1-related-to-Beneficial-and-Harmful-Effects-of-Computing-Big-Idea-5.1">5.1</a>-<a href="https://github.com/nighthawkcoders/nighthawk_csp/wiki/Tri-3-TPT-0.2-related-to-Digital-Divide-Big-Idea-5.2">5.2</a></td>
     <td><a href="https://github.com/nighthawkcoders/nighthawk_csp/wiki/Tri-3---TT0---Python-Menu,-Replit,-Github">TT0 Python Menu, Replit, GitHub</a></td>
     <td><a href="https://poway.instructure.com/courses/112335/assignments/2043640">Plans, Team, Jobs</a></td>
    </tr>
