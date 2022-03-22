@@ -9,7 +9,7 @@
     <td>2</td>
     <td>March 21 - 25</td>
     <td>Factorial Class, Math imperative and Class, Palindrome imperative and class</td>
-    <td>Review Ticket
+    <td>Review Ticket</td>
    </tr>
    
    <tr>
