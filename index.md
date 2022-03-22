@@ -22,7 +22,7 @@ Week 2 Factorial Class, Math imperative and Class, Palindrome imperative and cla
     <td>1</td>
     <td>March 14 - 18</td>
     <td>Car List, Fibonacci</td>
-    <td>Review Ticket<a href="https://github.com/gigiguan/gigiguan.github.io/issues/2"></td>
+    <td>Review Ticket<a href="https://github.com/gigiguan/gigiguan.github.io/issues/2">Review Ticket</a></td>
    </tr>
    
    <tr>
