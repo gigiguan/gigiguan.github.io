@@ -26,8 +26,8 @@
 2. Our final project is a website to spread awareness about mental health. Our final project could be better with crowdsourcing. For example, we can prompt the user to answer questions upon opening our website, perhaps about how stressful they're feeling and the cause of their stress/mental illness. This would allow us to better understand the problem underlying our campus so we can refine our website to include more features targetting differenct causes of mental illness/stress to benefit as many students as possible.
 
 ### 5.5
-1. When you create a GitHub repository it requests a license type. Review the license types in relationship to this Tech Talk and make some notes in GitHub pages.
-2. Make a license for your personal and Team project. Document license you picked and why.
+1. License preferred by a community: Apache License 2.0, GNU GPLv3, MIT, or the very similar ISC licenses. Simple and permissive license: The MIT License is short and to the point. It lets people do almost anything they want with your project, like making and distributing closed source versions. Sharing improvements: The GNU GPLv3 also lets people do almost anything they want with your project, except distributing closed source versions. Non-software licenses: CC0-1.0, CC-BY-4.0, and CC-BY-SA-4.0 are open licenses used for non-software material ranging from datasets to videos.
+2. I made a license for my personal project. I picked the Apache License 2.0 because it permits commercial use, modification, distribution, patent use, and private use. 
 
 ### 5.6
 1. I've seen PII on our projects in CSP on our about me pages where we revealed our names, email, and picture (toggle masks). These things can be known by everyone because everyone can access our deployed website.
