@@ -8,7 +8,7 @@ Week 0 Menu, Tree, Matrix, Swap
 Week 1 Car List, Fibonacci
 Week 2 Factorial Class, Math imperative and Class, Palindrome imperative and class
 
-
+<table>
    <tr>
     <td>2</td>
     <td>March 21 - 25</td>
