@@ -1,12 +1,12 @@
-import menu
-import tree
-import hacks
-import fib
+import src.week0.menu
+import src.week0.tree
+import src.week1.hacks
+import src.week1.fib
 
 main_menu = [
-    ["Menu/Swap", menu.print_menu2],
-    ["Tree", tree.tree],
-    ["Fibonacci", fib.fibonacci],
+    ["Menu/Swap", src.week0.menu.print_menu2],
+    ["Tree", src.week0.tree.tree],
+    ["Fibonacci", src.week1.fib.fibonacci],
 ]
 
 sub_menu = [
@@ -17,9 +17,9 @@ sub_menu = [
 ]
 
 patterns_sub_menu = [
-    ["For Loop", hacks.for_loop],
-    ["While Loop", hacks.while_loop],
-    ["Recursive Loop", hacks.recursive_loop],
+    ["For Loop", src.week1.hacks.for_loop],
+    ["While Loop", src.week1.hacks.while_loop],
+    ["Recursive Loop", src.week1.hacks.recursive_loop],
 ]
 
 border = "=" * 25
