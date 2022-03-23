@@ -3,7 +3,10 @@
 ## **Code**
 ### **Week 2**
 Hack 1
+
 ![image](https://user-images.githubusercontent.com/89219495/159799434-3a359919-1214-4da0-91a4-9f39963f7c96.png)
+
+
 
 
 ### **Week 1**
