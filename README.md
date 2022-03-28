@@ -1,1 +1,1 @@
-[Week 1 Review Ticket](https://github.com/gigiguan/gigiguan.github.io/issues/2)
+[Week 2 Review Ticket](https://github.com/gigiguan/gigiguan.github.io/issues/4)
