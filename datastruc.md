@@ -6,8 +6,83 @@ Hack 1
 
 ![image](https://user-images.githubusercontent.com/89219495/159799434-3a359919-1214-4da0-91a4-9f39963f7c96.png)
 
+Hack 2
+```
+class Factorial:
+    def __call__(self, n):
+        if n == 1 or n == 0:
+            return 1
+        else:
+            return n * self(n-1)
 
 
+# def factorial():
+#   # this would create an instance of the Factorial class
+#   fac = Factorial()
+#   print(fac(1))
+
+# make a def factorial () for testing
+def factorial():
+    num = [1,2,3,4,5,6,7,8]
+    for fact in num:
+        # mypal = MyPal()
+        fac = Factorial()
+        print(fact,"! = ", fac(fact))
+
+if __name__ == "__main__":
+    factorial()
+```
+
+Hack 3
+```
+# Python function to find a range of primes
+def findprimes(min, max):
+    for Number in range(min, max + 1):
+        count = 0
+        for i in range(2, (Number // 2 + 1)):
+            if (Number % i == 0):
+                count = count + 1
+                break
+        if (count == 0 and Number != 1):
+            print(" %d" % Number, end='  ')
+print()
+
+def primes():
+    minimum = 1
+    maximum = 20
+    print("Imperative- The Prime Numbers between ", minimum, "and ", maximum, "is: ")
+    findprimes(minimum, maximum)
+# -----------------------------------------------------------
+# Define a class for Checking prime number
+class Prime:
+    # Constructor
+    def __init__(self,number) :
+        self.num = number
+    # define a method for checking number is prime or not
+    def isPrime(self) :
+        for i in range(2, int(num ** (1/2)) + 1) :
+            # if any number is divisible by i
+            # then number is not prime
+            # so return False
+            if num % i == 0 :
+                return False
+        # if number is prime then return True
+        return True
+
+# Main code
+if __name__ == "__main__" :
+    #OOP: input number
+    num = 29
+    # make an object of Check class
+    print("OOP- Checking if ", num, " is a prime number...")
+    check_prime = Prime(num)
+    # method calling
+    print(check_prime.isPrime())
+    num = 51
+    print("OOP- Checking if ", num, " is a prime number...")
+    check_prime = Prime(num)
+    print(check_prime.isPrime())
+```
 
 ### **Week 1**
 Check Replit(navbar) for runtime
