@@ -1,17 +1,23 @@
-class Fibonacci:
-    def __init__(self):
-        self.fiboSeq = [0, 1]
-
-
+class Factorial:
     def __call__(self, n):
-        if n < len(self.fiboSeq):
-            return self.fiboSeq[n]
+        if n == 1 or n == 0:
+            return 1
         else:
-            # Compute the requested Fibonacci number
-            fib_number = self(n - 1) + self(n - 2) # two recursive calls to self (__call__(self, n))
-            self.fiboSeq.append(fib_number) # builds list, with most nested of the calculations 1st... may hurt your head
-        return self.fiboSeq[n]
+            return n * self(n-1)
 
 
-fibo_of = Fibonacci() # object instantiation and run __init__ method
-print(fibo_of(5)) # object running __call__ method
+# def factorial():
+#   # this would create an instance of the Factorial class
+#   fac = Factorial()
+#   print(fac(1))
+
+# make a def factorial () for testing
+def factorial():
+    num = [1,2,3,4,5,6,7,8]
+    for fact in num:
+        # mypal = MyPal()
+        fac = Factorial()
+        print(fact,"! = ", fac(fact))
+
+if __name__ == "__main__":
+    factorial()

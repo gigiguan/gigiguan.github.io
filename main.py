@@ -2,6 +2,9 @@ import src.week0.menu
 import src.week0.tree
 import src.week1.hacks
 import src.week1.fib
+import src.week2.fac
+from src.week2.prime import Prime
+
 
 main_menu = [
     ["Menu/Swap", src.week0.menu.print_menu2],
@@ -10,10 +13,8 @@ main_menu = [
 ]
 
 sub_menu = [
-    ["Factors", None],
-    ["GCD", None],
-    ["LCM", None],
-    ["Primes", None],
+    ["Primes", src.week2.prime.primes],
+    ["Factorial", src.week2.fac.factorial],
 ]
 
 patterns_sub_menu = [
@@ -37,6 +38,7 @@ def menu():
     title = "Function Menu" + banner
     menu_list = main_menu.copy()
     menu_list.append(["Loops", patterns_submenu])
+    menu_list.append(["Math", submenu])
     buildMenu(title, menu_list)
 
 def submenu():
