@@ -1,7 +1,7 @@
 {% include navigation.html %}
 
 ## **Review Ticket**
-[Link to Week 1 Review Ticket](https://github.com/gigiguan/gigiguan.github.io/issues/2)
+[Link to Week 2 Review Ticket](https://github.com/gigiguan/gigiguan.github.io/issues/4)
 
 ## **Timebox**
 <table>
@@ -9,7 +9,7 @@
     <td>2</td>
     <td>March 21 - 25</td>
     <td>Factorial Class, Math imperative and Class, Palindrome imperative and class</td>
-    <td>Review Ticket</td>
+    <td><a href="https://github.com/gigiguan/gigiguan.github.io/issues/4">Review Ticket</a></td>
    </tr>
    
    <tr>
