@@ -1,5 +1,13 @@
-{% include navigation.html %}
-
+---
+title: home
+---
+  <div id="video_wrapper">
+    <video autoplay loop>
+        <source src="https://drive.google.com/uc?export=view&id=1kAw4XIS3JH_cpTHGMRsV0mwl7dcFz2wq" type="video/mp4">
+    </video>
+  </div>
+  
+  
 ## **Review Ticket**
 [Link to Week 2 Review Ticket](https://github.com/gigiguan/gigiguan.github.io/issues/4)
 
