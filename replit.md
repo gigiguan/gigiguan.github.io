@@ -7,4 +7,4 @@ title: replit
     </video>
   </div>
   
-<iframe frameborder="0" width="100%" height="800px" src="https://replit.com/@GigiGuan/gigiguangithubio?lite=true">
+<iframe frameborder="0" width="80%" height="400px" src="https://replit.com/@GigiGuan/gigiguangithubio?lite=true">
