@@ -1,81 +1,50 @@
-<!DOCTYPE html>
+
+<!-- pages_python/_layouts/default.html
+     customization added to original midnight theme found through GitHub Pages -->
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=640">
 
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen">
-    <link rel="stylesheet" href="{{ '/assets/css/mobile.css' | relative_url }}" media="handheld, only screen and (max-device-width:640px)">
-    <link rel="stylesheet" href="{{ '/assets/css/non-screen.css' | relative_url }}" media="handheld, only screen and (max-device-width:640px)">
-
-    <script src="{{ '/assets/js/modernizr.js' | relative_url }}"></script>
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-    <script src="{{ '/assets/js/headsmart.min.js' | relative_url }}"></script>
-    <script>
-      $(document).ready(function () {
-        $('#main_content').headsmart()
-      })
-    </script>
+    <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="{{ '/assets/css/ie.css' | relative_url }}">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    {% include head-custom.html %}
+    
+    <!-- nighthawk coding society has inserted its own file for thigs like <style>-->
+    {% include head-custom2.html %}
 
-{% seo %}
-
-{% include head-custom.html %}
   </head>
-
   <body>
-    <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
-    <div class="shell">
+      
+    <div class="wrapper">
 
-      <header>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <h1>{{ site.title | default: site.github.repository_name }}</h1>
-            <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-      </header>
-
-      {% if site.show_downloads %}
-        <section id="downloads">
-          <span class="inner">
-            <a href="{{ site.github.zip_url }}" class="zip"><em>download</em> .ZIP</a><a href="{{ site.github.tar_url }}" class="tgz"><em>download</em> .TGZ</a>
-          </span>
-        </section>
-      {% else %}
-        <div id="no-downloads">
-          <span class="inner">
-          </span>
+      <section>
+        <div id="title">
+          <h1>{{ site.title | default: site.github.repository_name }}</h1>
+          <p>{{ site.description | default: site.github.project_tagline }}</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
+          <!-- Credit goes to peron in next line, as nighthawkcoding society is rebranding this as their own
+               <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></span> -->
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/NighthawkCoding">nighthawkcodingsociety</a></span> 
         </div>
-      {% endif %}
+        
+        <!-- nighthawk coding society has inserted navigation that can be updated in independent file -->
+        {% include navigation.html %}
 
-
-      <span class="banner-fix"></span>
-
-
-      <section id="main_content">
+        <!-- this is Jekyll magic, each md file in site will be inserted here -->
         {{ content }}
+           
       </section>
-
-      <footer>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            {% if site.github.is_project_page %}
-              <p>this project by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a> can be found on <a href="{{ site.github.repository_url }}">GitHub</a></p>
-            {% endif %}
-            {% if site.github.is_user_page %}
-              <p>Projects by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a> can be found on <a href="{{ site.github.repository_url }}">GitHub</a></p>
-            {% endif %}
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
-        <span class="octocat"></span>
-      </footer>
-
-    </div>
+       
   </body>
 </html>
