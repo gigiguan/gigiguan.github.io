@@ -1,11 +1,94 @@
-<table>
-  <tr>
-    <td><a href=".">Home</a></td>
-    <td><a href="notes">Notes</a></td>
-    <td><a href="datastruc">Code</a></td>
-    <td><a href="replit">Replit</a></td>
-    <td><a href="create">Create Task</a></td>
-    <td><a href="about">About Me</a></td>
-  </tr>
-</table>
-<hr>
+<!Doctype html>
+<html>
+<body>
+    <style>
+        #nav {
+            list-style: none inside;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        #nav li {
+            display: block;
+            position: relative;
+            float: left;
+            background: rgb(255,255,255); 
+            /* menu background color */
+        }
+
+        #nav li a {
+            display: block;
+            padding: 0;
+            text-decoration: none;
+            width: 130px;
+            /* this is the width of the menu items */
+            line-height: 35px;
+            /* this is the hieght of the menu items */
+            color: rgb(0,0,0);
+            /* list item font color */
+        }
+
+        #nav li li a {
+            font-size: 80%;
+        }
+
+        /* smaller font size for sub menu items */
+
+        #nav li:hover {
+            background: #D1D1D1;
+        }
+
+        /* highlights current hovered list item and the parent list items when hovering over sub menues */
+
+        #nav ul {
+            position: absolute;
+            padding: 0;
+            left: 0;
+            display: none;
+            /* hides sublists */
+        }
+
+        #nav li:hover ul ul {
+            display: none;
+        }
+
+        /* hides sub-sublists */
+
+        #nav li:hover ul {
+            display: block;
+        }
+
+        /* shows sublist on hover */
+
+        #nav li li:hover ul {
+            display: block;
+            /* shows sub-sublist on hover */
+            margin-left: 160px;
+            /* this should be the same width as the parent list item */
+            margin-top: -50px;
+            /* aligns top of sub menu with top of list item */
+        }
+    </style>
+    </head>
+    <ul id="nav">
+        <li><a href=".">Home</a></li>
+        <li><a href="collegeboard">Notes</a>
+            <ul>
+                <li><a href="5.1">5.1</a></li>
+                <li><a href="5.2">5.2</a></li>
+                <li><a href="5.3">5.3</a></li>
+                <li><a href="5.4">5.4</a></li>
+                <li><a href="5.5">5.5</a></li>
+                <li><a href="5.6">5.6</a></li>
+            </ul>
+        </li>
+    </ul>
+    <ul id="nav">
+        <li><a href="replit">Replit</a></li>
+        <li><a href="code">Code</a></li>
+        <li><a href="create">Create Task</a>
+        <li><a href="about">About Me</a>
+    </ul>
+</body>
+</html>
