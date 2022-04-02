@@ -9,11 +9,18 @@ title: home
   
   
 
-[Link to Week 2 Review Ticket](https://github.com/gigiguan/gigiguan.github.io/issues/4)
+[Link to Review Ticket](https://github.com/gigiguan/gigiguan.github.io/issues/5)
 
 ## **Timebox**
 <table>
    <tr>
+    <td>3</td>
+    <td>March 28 - 01</td>
+    <td>Algorithmic Final</td>
+    <td><a href="https://github.com/gigiguan/gigiguan.github.io/issues/5">Review Ticket</a></td>
+   </tr>
+
+  <tr>
     <td>2</td>
     <td>March 21 - 25</td>
     <td>Factorial Class, Math imperative and Class, Palindrome imperative and class</td>
