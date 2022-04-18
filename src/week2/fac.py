@@ -15,7 +15,6 @@ class Factorial:
 def factorial():
     num = [1,2,3,4,5,6,7,8]
     for fact in num:
-        # mypal = MyPal()
         fac = Factorial()
         print(fact,"! = ", fac(fact))
 

@@ -8,6 +8,7 @@ import src.week0.ship
 import src.week2.factorialinput
 import src.week2.easteregg
 from src.week2.prime import Prime
+import src.create
 
 #Vidhi's Additions:
 # Colored Numbers
@@ -24,6 +25,7 @@ main_menu = [
     ["Fibonacci", src.week1.fib.fibonacci],
     ["Color", src.week2.color.numb],
     ["Ship", src.week0.ship.driver],
+    ["Create Task", src.create.sort],
 ]
 
 sub_menu = [
