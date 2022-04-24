@@ -41,14 +41,14 @@ class Prime:
 if __name__ == "__main__" :
     #Imperative
     primes()
-    #OOP: input number
-    num = 29
-    # make an object of Check class
-    print("OOP- Checking if ", num, " is a prime number...")
-    check_prime = Prime(num)
-    # method calling
-    print(check_prime.isPrime())
-    num = 51
-    print("OOP- Checking if ", num, " is a prime number...")
-    check_prime = Prime(num)
-    print(check_prime.isPrime())
+    # #OOP: input number
+    # num = 29
+    # # make an object of Check class
+    # print("OOP- Checking if ", num, " is a prime number...")
+    # check_prime = Prime(num)
+    # # method calling
+    # print(check_prime.isPrime())
+    # num = 51
+    # print("OOP- Checking if ", num, " is a prime number...")
+    # check_prime = Prime(num)
+    # print(check_prime.isPrime())

@@ -5,9 +5,8 @@ import src.week1.fib
 import src.week2.fac
 import src.week2.color
 import src.week0.ship
-import src.week2.factorialinput
+import src.week2.prime
 import src.week2.easteregg
-from src.week2.prime import Prime
 import src.create
 
 #Vidhi's Additions:
