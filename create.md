@@ -8,7 +8,7 @@
 ## [Create Task Runtime](https://youtu.be/v8RZpsUFwvw)
 ## [Code](https://github.com/gigiguan/gigiguan.github.io/blob/main/src/create.py)
 3a.
-i. The overall purpose of the program is to sort user-inputted numbers in ascending order or descending order.
+i. The overall purpose of the program is to sort user-inputted numbers in ascending order or descending order to benefit individuals with the need to sort any amount of numbers rapidly.
 
 ii. The video shows how users can sort the numbers that they inputted in ascending or descending order based on the user's choice. Also, the program restarts or ends based on the user input.
 
