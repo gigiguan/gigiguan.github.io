@@ -18,14 +18,13 @@ def deFunc(n, num):
                 n[j + 1] = num2
               #smaller integers bubbles up to the end of the list
 
-
 def sort():
     while True:
     #array represent integers that the user inputted
         n = []
         num = int(input("How many numbers would you like to sort? : "))
         for i in range(num):
-            number = int(input("What is the %d number? : " %i))
+            number = int(input("What is number %d? : " %i))
             n.append(number)
 
 
