@@ -9,15 +9,6 @@ import src.week2.prime
 import src.week2.easteregg
 import src.create
 
-#Vidhi's Additions:
-# Colored Numbers
-# Ship with Color
-# Factorial With input
-# EasterEgg Submenu
-# Number Table
-# Word Expansion
-# Number Pattern
-
 main_menu = [
     ["Menu/Swap", src.week0.menu.print_menu2],
     ["Tree", src.week0.tree.tree],
