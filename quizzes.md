@@ -1,5 +1,5 @@
 ---
-title: Proctored MCQ 1&2 Corrections
+title: Proctored MCQ 1,2,3 Corrections
 ---
   <div id="video_wrapper">
     <video autoplay loop>
@@ -7,6 +7,27 @@ title: Proctored MCQ 1&2 Corrections
     </video>
   </div>
   
+### **Quiz 3: Score 41/50**
+Q7 Result of iteration statements 
+![image](https://user-images.githubusercontent.com/89219495/165630253-946768b3-7b2a-4e96-a813-f982c26a7361.png)
+Which of the following best describes the value returned by the procedure?
+A: The procedure returns the sum of the integers from 1 to n.
+* The procedure initially sets result to 1 and j to 2. In the REPEAT UNTIL loop, result is first assigned the sum of result and j, or 1 + 2. The value of j is then increased to 3. In each subsequent iteration of the loop, result is increased by each successive value of j (3, 4, 5, etc.) until j exceeds n. Therefore, the procedure returns the sum of the integers from 1 to n.
+* The answer is not "the procedure returns the value of 2 * n" because the procedure does not return the value of 2 * n. For a procedure to return 2 * n, it could initialize result to 0 and then repeatedly add 2 to result a total of n times.
+
+
+
+
+
+Q9
+Q17
+Q21
+Q35
+Q41
+Q42
+Q44
+Q46
+
 ### **Quiz 1: Score 42/50**
 Q8: Which of the following is most likely to be a benefit of storing the information from each calling session in a database?
 ![image](https://user-images.githubusercontent.com/89219495/164559019-53d7bbd0-6cdb-4b99-8b74-5ed0649d4ad8.png)
