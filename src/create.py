@@ -23,8 +23,8 @@ def sort():
     #array represent integers that the user inputted
         n = []
         num = int(input("How many numbers would you like to sort? : "))
-        for i in range(num):
-            number = int(input("What is number %d? : " %i))
+        for i in range(1, num):
+            number = int(input("What is number %i? : " %i))
             n.append(number)
 
 
@@ -32,12 +32,12 @@ def sort():
         if answer == "A":
           #calls adFunc()
             adFunc(n, num)
-            print("The List in Ascending Order : ", n)
+            print("Here are the sorted numbers : ", n)
 
         elif answer == "D":
             #calls deFunc()
             deFunc(n, num)
-            print("The List in Descending Order : ", n)
+            print("Here are the sorted numbers : ", n)
 
         final = input("Run again? (Y/N) ")
         if final == "Y":
