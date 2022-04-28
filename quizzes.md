@@ -16,20 +16,38 @@ A: The procedure returns the sum of the integers from 1 to n.
 * Reflection: The answer is not "the procedure returns the value of 2 * n" because the procedure does not return the value of 2 * n. For a procedure to return 2 * n, it could initialize result to 0 and then repeatedly add 2 to result a total of n times.
 
 Q9 Apartment rental Web site flowchart 
+
 A flowchart is a way to visually represent an algorithm. The flowchart below is used by an apartment rental Web site to set the variable include to true for apartments that meet certain criteria.
 ![image](https://user-images.githubusercontent.com/89219495/165849224-b2ab8a6b-ecac-4415-b361-78a40c9e12dd.png)
+![image](https://user-images.githubusercontent.com/89219495/165849386-c62097f0-5c57-4050-b255-5016e116e96d.png)
 Which of the following statements is equivalent to the algorithm in the flowchart?
 A: include <- (floor > 10) OR (bedrooms = 3)
 * Explanation: The flowchart sets include to true whenever floor is greater than 1 0 or bedrooms equal 3, and sets include to false otherwise. Therefore, the algorithm is equivalent to include <- (floor > 10) OR (bedrooms = 3).
 * Reflection: The answer is not include <- (floor > 10) AND (bedrooms = 3) because this expression would be used for a flowchart to set include to true whenever floor is greater than 1 0 and bedrooms equal 3. This does not correctly set include to true in cases where only one of the two conditions is true.
 
-Q17
+Q17 Test cases for procedure Smallest 
+
+The procedure Smallest is intended to return the least value in the list numbers. The procedure does not work as intended.
+![image](https://user-images.githubusercontent.com/89219495/165849897-b5c83989-a783-4f2c-81af-f1d4742e8085.png)
+For which of the following values of One word, the List will Smallest, open parenthesis, one word, the List, close parenthesis NOT return the intended value? Select two answers.
+A: theList <- [30, 40, 20, 10] and theList <- [40, 30, 20, 10]
+* Explanation: The procedure returns the first number it encounters that is less than the first number in the list. For the list open bracket, 30, 40, 20, 10, close bracket, the procedure returns 2 0, which is not the least value in the list. Also, the procedure returns the first number it encounters that is less than the first number in the list. For the list open bracket, 40, 30, 20, 10, close bracket, the procedure returns 3 0, which is not the least value in the list.
+* Reflection: I did not see the part of the question that says "Select two answers". I only chose one answer. I need to remember to read every question thoroughly.
+
+
+
 Q21
 Q35
 Q41
 Q42
 Q44
 Q46
+
+Additional Notes:
+* An undecidable problem is one for which no algorithm can be constructed that is always capable of providing a correct yes-or-no answer. Some instances of an undecidable problem may have an algorithmic solution, but there is no algorithmic solution that could solve all instances of the problem.
+* Devices on the Internet communicate using standard protocols, which do not depend on the manufacturer.
+* Creative Commons licensing allows copyright owners to specify the ways in which their works can be used or distributed. This allows individuals to access or modify these works without the risk of violating copyright laws.
+* 
 
 ### **Quiz 1: Score 42/50**
 Q8: Which of the following is most likely to be a benefit of storing the information from each calling session in a database?
