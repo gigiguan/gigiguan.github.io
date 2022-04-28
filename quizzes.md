@@ -23,6 +23,7 @@ A flowchart is a way to visually represent an algorithm. The flowchart below is 
 ![image](https://user-images.githubusercontent.com/89219495/165849386-c62097f0-5c57-4050-b255-5016e116e96d.png)
 
 Which of the following statements is equivalent to the algorithm in the flowchart?
+
 A: include <- (floor > 10) OR (bedrooms = 3)
 * Explanation: The flowchart sets include to true whenever floor is greater than 1 0 or bedrooms equal 3, and sets include to false otherwise. Therefore, the algorithm is equivalent to include <- (floor > 10) OR (bedrooms = 3).
 * Reflection: The answer is not include <- (floor > 10) AND (bedrooms = 3) because this expression would be used for a flowchart to set include to true whenever floor is greater than 1 0 and bedrooms equal 3. This does not correctly set include to true in cases where only one of the two conditions is true.
@@ -34,6 +35,7 @@ The procedure Smallest is intended to return the least value in the list numbers
 ![image](https://user-images.githubusercontent.com/89219495/165849897-b5c83989-a783-4f2c-81af-f1d4742e8085.png)
 
 For which of the following values of One word, the List will Smallest, open parenthesis, one word, the List, close parenthesis NOT return the intended value? Select two answers.
+
 A: theList <- [30, 40, 20, 10] and theList <- [40, 30, 20, 10]
 * Explanation: The procedure returns the first number it encounters that is less than the first number in the list. For the list [30, 40, 20, 10], the procedure returns 20, which is not the least value in the list. Also, the procedure returns the first number it encounters that is less than the first number in the list. For the list [40, 30, 20, 10], the procedure returns 30, which is not the least value in the list.
 * Reflection: I did not see the part of the question that says "Select two answers". I only chose one answer. I need to remember to read every question thoroughly.
