@@ -1,3 +1,4 @@
+#christina: javascript inside of html
 #functions allows the numbers to compare with adjacent numbers and exchanges those that are out of order
 def asc(n, num):
     for i in range(num - 1):
