@@ -35,7 +35,7 @@ The procedure Smallest is intended to return the least value in the list numbers
 
 ![image](https://user-images.githubusercontent.com/89219495/165849897-b5c83989-a783-4f2c-81af-f1d4742e8085.png)
 
-For which of the following values of One word, the List will Smallest, open parenthesis, one word, the List, close parenthesis NOT return the intended value? Select two answers.
+For which of the following values of the List will Smallest(the List) NOT return the intended value? Select two answers.
 
 A: theList <- [30, 40, 20, 10] and theList <- [40, 30, 20, 10]
 * Explanation: The procedure returns the first number it encounters that is less than the first number in the list. For the list [30, 40, 20, 10], the procedure returns 20, which is not the least value in the list. Also, the procedure returns the first number it encounters that is less than the first number in the list. For the list [40, 30, 20, 10], the procedure returns 30, which is not the least value in the list.
@@ -53,7 +53,7 @@ Additional Notes:
 * An undecidable problem is one for which no algorithm can be constructed that is always capable of providing a correct yes-or-no answer. Some instances of an undecidable problem may have an algorithmic solution, but there is no algorithmic solution that could solve all instances of the problem.
 * Devices on the Internet communicate using standard protocols, which do not depend on the manufacturer.
 * Creative Commons licensing allows copyright owners to specify the ways in which their works can be used or distributed. This allows individuals to access or modify these works without the risk of violating copyright laws.
-* Binary 1011 is equivalent to 23+21+20, or decimal 11, and binary 1101 is equivalent to 23+22+20, or decimal 13. The order of the numbers (written in their equivalent decimal format) is 5, 11, 12, 13.
+* Binary 1011 is equivalent to ![image](https://user-images.githubusercontent.com/89219495/165863392-3562f69d-0351-4930-b125-88d18b2c1c16.png), or decimal 11, and binary 1101 is equivalent to ![image](https://user-images.githubusercontent.com/89219495/165863415-4c27ffa3-8fdd-4443-bc78-798767b418ac.png), or decimal 13. The order of the numbers (written in their equivalent decimal format) is 5, 11, 12, 13.
 
 ### **Quiz 1: Score 42/50**
 Q8: Which of the following is most likely to be a benefit of storing the information from each calling session in a database?
