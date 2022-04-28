@@ -18,8 +18,10 @@ A: The procedure returns the sum of the integers from 1 to n.
 Q9 Apartment rental Web site flowchart 
 
 A flowchart is a way to visually represent an algorithm. The flowchart below is used by an apartment rental Web site to set the variable include to true for apartments that meet certain criteria.
+
 ![image](https://user-images.githubusercontent.com/89219495/165849224-b2ab8a6b-ecac-4415-b361-78a40c9e12dd.png)
 ![image](https://user-images.githubusercontent.com/89219495/165849386-c62097f0-5c57-4050-b255-5016e116e96d.png)
+
 Which of the following statements is equivalent to the algorithm in the flowchart?
 A: include <- (floor > 10) OR (bedrooms = 3)
 * Explanation: The flowchart sets include to true whenever floor is greater than 1 0 or bedrooms equal 3, and sets include to false otherwise. Therefore, the algorithm is equivalent to include <- (floor > 10) OR (bedrooms = 3).
@@ -28,12 +30,13 @@ A: include <- (floor > 10) OR (bedrooms = 3)
 Q17 Test cases for procedure Smallest 
 
 The procedure Smallest is intended to return the least value in the list numbers. The procedure does not work as intended.
+
 ![image](https://user-images.githubusercontent.com/89219495/165849897-b5c83989-a783-4f2c-81af-f1d4742e8085.png)
+
 For which of the following values of One word, the List will Smallest, open parenthesis, one word, the List, close parenthesis NOT return the intended value? Select two answers.
 A: theList <- [30, 40, 20, 10] and theList <- [40, 30, 20, 10]
-* Explanation: The procedure returns the first number it encounters that is less than the first number in the list. For the list open bracket, 30, 40, 20, 10, close bracket, the procedure returns 2 0, which is not the least value in the list. Also, the procedure returns the first number it encounters that is less than the first number in the list. For the list open bracket, 40, 30, 20, 10, close bracket, the procedure returns 3 0, which is not the least value in the list.
+* Explanation: The procedure returns the first number it encounters that is less than the first number in the list. For the list [30, 40, 20, 10], the procedure returns 20, which is not the least value in the list. Also, the procedure returns the first number it encounters that is less than the first number in the list. For the list [40, 30, 20, 10], the procedure returns 30, which is not the least value in the list.
 * Reflection: I did not see the part of the question that says "Select two answers". I only chose one answer. I need to remember to read every question thoroughly.
-
 
 
 Q21
@@ -47,7 +50,7 @@ Additional Notes:
 * An undecidable problem is one for which no algorithm can be constructed that is always capable of providing a correct yes-or-no answer. Some instances of an undecidable problem may have an algorithmic solution, but there is no algorithmic solution that could solve all instances of the problem.
 * Devices on the Internet communicate using standard protocols, which do not depend on the manufacturer.
 * Creative Commons licensing allows copyright owners to specify the ways in which their works can be used or distributed. This allows individuals to access or modify these works without the risk of violating copyright laws.
-* 
+* Binary 1011 is equivalent to 23+21+20, or decimal 11, and binary 1101 is equivalent to 23+22+20, or decimal 13. The order of the numbers (written in their equivalent decimal format) is 5, 11, 12, 13.
 
 ### **Quiz 1: Score 42/50**
 Q8: Which of the following is most likely to be a benefit of storing the information from each calling session in a database?
