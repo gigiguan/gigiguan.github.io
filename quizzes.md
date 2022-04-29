@@ -10,6 +10,7 @@ title: Proctored MCQ 1,2,3 Corrections
 ### **Quiz 3: Score 41/50**
 Q7 Result of iteration statements 
 ![image](https://user-images.githubusercontent.com/89219495/165630253-946768b3-7b2a-4e96-a813-f982c26a7361.png)
+
 Which of the following best describes the value returned by the procedure?
 
 A: The procedure returns the sum of the integers from 1 to n.
