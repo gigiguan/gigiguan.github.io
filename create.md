@@ -8,7 +8,7 @@
 ## [Create Task Runtime](https://youtu.be/d4VY_ZqJ9R0)
 ## [Code](https://github.com/gigiguan/gigiguan.github.io/blob/main/src/create.py)
 3a.
-i. The ability to sort numbers is necessary in many aspects of everyday life. However, things can get overwhelming when there are too many numbers that need to be sorted. The overall purpose of the program is to benefit individuals, especially math students, by allowing to sort any amount of numbers they want rapidly and efficiently. 
+i. The ability to sort numbers is necessary in many aspects of everyday life. However, things can get overwhelming and time consuming when there are too many numbers that need to be sorted. The overall purpose of the program is to benefit individuals, especially math students, by allowing to sort any amount of numbers they want rapidly and efficiently. 
 
 ii. The video shows how users can sort the numbers that they inputted in ascending or descending order based on the user's choice. Also, the program restarts or ends based on the user input.
 
