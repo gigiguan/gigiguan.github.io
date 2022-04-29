@@ -8,7 +8,7 @@ title: Proctored MCQ 1,2,3 Corrections
   </div>
   
 ### **Quiz 3: Score 41/50**
-**Q7 Result of iteration statements **
+**Q7 Result of iteration statements**
 ![image](https://user-images.githubusercontent.com/89219495/165630253-946768b3-7b2a-4e96-a813-f982c26a7361.png)
 
 Which of the following best describes the value returned by the procedure?
@@ -17,7 +17,7 @@ A: The procedure returns the sum of the integers from 1 to n.
 * Explanation: The procedure initially sets result to 1 and j to 2. In the REPEAT UNTIL loop, result is first assigned the sum of result and j, or 1 + 2. The value of j is then increased to 3. In each subsequent iteration of the loop, result is increased by each successive value of j (3, 4, 5, etc.) until j exceeds n. Therefore, the procedure returns the sum of the integers from 1 to n.
 * Reflection: The answer is not "the procedure returns the value of 2 * n" because the procedure does not return the value of 2 * n. For a procedure to return 2 * n, it could initialize result to 0 and then repeatedly add 2 to result a total of n times.
 
-**Q9 Apartment rental Web site flowchart **
+**Q9 Apartment rental Web site flowchart**
 
 A flowchart is a way to visually represent an algorithm. The flowchart below is used by an apartment rental Web site to set the variable include to true for apartments that meet certain criteria.
 
@@ -30,7 +30,7 @@ A: include <- (floor > 10) OR (bedrooms = 3)
 * Explanation: The flowchart sets include to true whenever floor is greater than 1 0 or bedrooms equal 3, and sets include to false otherwise. Therefore, the algorithm is equivalent to include <- (floor > 10) OR (bedrooms = 3).
 * Reflection: The answer is not include <- (floor > 10) AND (bedrooms = 3) because this expression would be used for a flowchart to set include to true whenever floor is greater than 1 0 and bedrooms equal 3. This does not correctly set include to true in cases where only one of the two conditions is true.
 
-**Q17 Test cases for procedure Smallest **
+**Q17 Test cases for procedure Smallest**
 
 The procedure Smallest is intended to return the least value in the list numbers. The procedure does not work as intended.
 
@@ -43,7 +43,7 @@ A: theList <- [30, 40, 20, 10] and theList <- [40, 30, 20, 10]
 * Reflection: I did not see the part of the question that says "Select two answers". I only chose one answer. I need to remember to read every question thoroughly.
 
 
-**Q21 Use of weak passwords **
+**Q21 Use of weak passwords**
 
 Which of the following best explains how devices and information can be susceptible to unauthorized access if weak passwords are used?
 
@@ -52,7 +52,7 @@ A: Unauthorized individuals can use data mining and other techniques to guess a 
 * Explanation: A strong password is something that is easy for a user to remember but would be difficult for someone else to guess based on knowledge of that user. Weak passwords can often be guessed based on publicly available information about a user. Other weak passwords (such as "password" or "1234") can often be guessed because they are commonly used.
 * Reflection: THe answer is not that unauthorized individuals can exploit vulnerabilities in encryption algorithms to determine a user’s password from their encryption key because the exploitation of encryption algorithms is not related to password strength.
 
-**Q35 Consequences of downloading licensed music seller **
+**Q35 Consequences of downloading licensed music seller**
 
 A user reads reviews of a popular artist’s new album and then downloads the album from the Web site of a licensed online music seller. Which of the following is LEAST likely to be a consequence of this action?
 
@@ -61,7 +61,7 @@ A: The user will be in violation of the Digital Millennium Copyright Act (DMCA).
 * Reflection: The choice "Album reviews from other people who live nearby will be displayed to the user." is incorrect because geolocation data can be accessed by the Web site, which can use this information to provide album reviews from nearby users.
 
 
-**Q41 Encrypting and decrypting using public key cryptography **
+**Q41 Encrypting and decrypting using public key cryptography**
 
 In public key cryptography, the sender uses the recipient’s public key to encrypt a message. Which of the following is needed to decrypt the message?
 
@@ -69,7 +69,7 @@ A: The recipient’s private key
 * Explanation: In public cryptography, a message is encrypted with a recipient’s public key and decrypted with the recipient’s private key.
 * Reflection: The sender’s public key cannot be used to decrypt the message.
 
-**Q42 Number of bits needed for item inventory **
+**Q42 Number of bits needed for item inventory**
 
 A store uses binary numbers to assign a unique binary sequence to each item in its inventory. What is the minimum number of bits required for each binary sequence if the store has between 75 and 100 items in its inventory?
 
@@ -77,7 +77,7 @@ A: 7
 * Explanation: Using 6 bits will only allow for up to 64 sequences because 2^6=64. Using 7 bits will allow for up to 128 sequences because 2^7=128. Therefore, a minimum of 7 bits are needed.
 * Reflection: Using 6 bits will only allow for up to 64 sequences because 2^6=64 but 100 items are needed.
 
-**Q44 Abstraction with procedures Square and Cube **
+**Q44 Abstraction with procedures Square and Cube**
 
 A programmer notices the following two procedures in a library. The procedures do similar, but not identical, things.
 
@@ -91,7 +91,7 @@ is Power(n, m), which calculates n raised to the m power.
 * Reflection: Polynomial(n) calculates the sum of the square and cube procedures, but does not generalize their functionality to calcualte the power of n.
 
 
-**Q46 Examples of symmetric encryption **
+**Q46 Examples of symmetric encryption**
 
 Which of the following is an example of symmetric encryption?
 
