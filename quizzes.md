@@ -42,18 +42,71 @@ A: theList <- [30, 40, 20, 10] and theList <- [40, 30, 20, 10]
 * Reflection: I did not see the part of the question that says "Select two answers". I only chose one answer. I need to remember to read every question thoroughly.
 
 
-Q21
-Q35
-Q41
-Q42
-Q44
-Q46
+Q21 Use of weak passwords 
 
-Additional Notes:
+Which of the following best explains how devices and information can be susceptible to unauthorized access if weak passwords are used?
+
+A: Unauthorized individuals can use data mining and other techniques to guess a user’s password.
+
+* Explanation: A strong password is something that is easy for a user to remember but would be difficult for someone else to guess based on knowledge of that user. Weak passwords can often be guessed based on publicly available information about a user. Other weak passwords (such as "password" or "1234") can often be guessed because they are commonly used.
+* Reflection: THe answer is not that unauthorized individuals can exploit vulnerabilities in encryption algorithms to determine a user’s password from their encryption key because the exploitation of encryption algorithms is not related to password strength.
+
+Q35 Consequences of downloading licensed music seller 
+
+A user reads reviews of a popular artist’s new album and then downloads the album from the Web site of a licensed online music seller. Which of the following is LEAST likely to be a consequence of this action?
+
+A: The user will be in violation of the Digital Millennium Copyright Act (DMCA).
+* Explanation: If the album was purchased and downloaded through a licensed music store, the user will not be in violation of the DMCA.
+* Reflection: The choice "Album reviews from other people who live nearby will be displayed to the user." is incorrect because geolocation data can be accessed by the Web site, which can use this information to provide album reviews from nearby users.
+
+
+Q41 Encrypting and decrypting using public key cryptography 
+
+In public key cryptography, the sender uses the recipient’s public key to encrypt a message. Which of the following is needed to decrypt the message?
+
+A: The recipient’s private key
+* Explanation: In public cryptography, a message is encrypted with a recipient’s public key and decrypted with the recipient’s private key.
+* Reflection: The sender’s public key cannot be used to decrypt the message.
+
+Q42 Number of bits needed for item inventory 
+
+A store uses binary numbers to assign a unique binary sequence to each item in its inventory. What is the minimum number of bits required for each binary sequence if the store has between 75 and 100 items in its inventory?
+
+A: 7
+* Explanation: Using 6 bits will only allow for up to 64 sequences because 2^6=64. Using 7 bits will allow for up to 128 sequences because 2^7=128. Therefore, a minimum of 7 bits are needed.
+* Reflection: Using 6 bits will only allow for up to 64 sequences because 2^6=64 but 100 items are needed.
+
+Q44 Abstraction with procedures Square and Cube 
+
+A programmer notices the following two procedures in a library. The procedures do similar, but not identical, things.
+
+![image](https://user-images.githubusercontent.com/89219495/165868217-bcc33146-b694-4d67-972f-5509f5d6e238.png)
+
+Which of the following procedures is a generalization of the procedures described above?
+
+A: Procedure Power(n, m), which returns the value n^m
+* Explanation: The procedures square and cube are each used to determine a power of n. A generalization of this procedure
+is Power(n, m), which calculates n raised to the m power.
+* Reflection: Polynomial(n) calculates the sum of the square and cube procedures, but does not generalize their functionality to calcualte the power of n.
+
+
+Q46 Examples of symmetric encryption 
+
+Which of the following is an example of symmetric encryption?
+
+A: Finn and Gwen develop a system that maps each letter of the alphabet to a unique symbol using a secret key. Finn uses the key to write a message to Gwen where each letter is replaced with the corresponding symbol. Gwen uses the key to map each symbol back to the original letter.
+* Explanation: This is an example of symmetric encryption because the secret key is used for both encryption and decryption of messages.
+* Reflection: "Evy buys a locked box that operates using two different codes. When the first code is entered, a slot opens that allows a message to be put in the box. When the second code is entered, the door to the box opens. Evy gives the first code to her friends so they can leave messages for her and keeps the second code to herself so that she is the only one who can retrieve the messages." is incorrect because this is an example of an asymmetric system because different codes are used to send and receive messages.
+
+Other topics to review/Additional notes:
 * An undecidable problem is one for which no algorithm can be constructed that is always capable of providing a correct yes-or-no answer. Some instances of an undecidable problem may have an algorithmic solution, but there is no algorithmic solution that could solve all instances of the problem.
 * Devices on the Internet communicate using standard protocols, which do not depend on the manufacturer.
 * Creative Commons licensing allows copyright owners to specify the ways in which their works can be used or distributed. This allows individuals to access or modify these works without the risk of violating copyright laws.
 * Binary 1011 is equivalent to ![image](https://user-images.githubusercontent.com/89219495/165863392-3562f69d-0351-4930-b125-88d18b2c1c16.png), or decimal 11, and binary 1101 is equivalent to ![image](https://user-images.githubusercontent.com/89219495/165863415-4c27ffa3-8fdd-4443-bc78-798767b418ac.png), or decimal 13. The order of the numbers (written in their equivalent decimal format) is 5, 11, 12, 13.
+* The Internet is the global system of interconnected computer networks that uses protocols to connect devices worldwide. The World Wide Web is an information system (of pages, programs, and files) that is accessible over the Internet.
+* With a 4-bit integer representation, 2^4 values can be represented, which allows for the values between 0 to 15, inclusive
+* Linear efficiency: reasonable amount of run time; Factorial efficiency (n!): unreasonable amount of run time, so a heuristic approach can be used to find an approximate solution.
+* A no-rights-reserved Creative Commons license is used when the creator of a published work wants the work to be made freely available to everyone.
 
 ### **Quiz 1: Score 42/50**
 Q8: Which of the following is most likely to be a benefit of storing the information from each calling session in a database?
