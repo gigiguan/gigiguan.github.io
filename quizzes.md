@@ -119,8 +119,10 @@ A: The company can analyze the calling session data and thereby make better busi
 **Q13**
 ![image](https://user-images.githubusercontent.com/89219495/164559060-71b12b63-df4b-462b-bd01-4480d1b7f383.png)
 A: Do the movement patterns of the animal vary according to the weather?
+* Reflection: accidentally clicked on the wrong answer choice :/
 
 **Q14**: An online store uses 6-bit binary sequences to identify each unique item for sale. The store plans to increase the number of items it sells and is considering using 7-bit binary sequences. Which of the following best describes the result of using 7-bit sequences instead of 6-bit sequences?
+
 A: 2 times as many items can be uniquely identified.
 * Reflection: Using 6-bit binary sequences allows for 26 or 64 different items to be identified. Using 7-bit binary sequences allows for 27 or 128 different items to be identified. Thus there are two times as many items that can be uniquely identified.
 
@@ -138,10 +140,12 @@ newList ← RemoveDuplicates (newList)
 * Reflection: When list1 and list2 are combined, the newList may have duplicates and will likely not be sorted. Performing the Sort and then the RemoveDuplicates procedures will result in a list that is sorted, has no duplicates, and contains the names of all the books found in either list1 or list2.
 
 **Q23**: Which of the following has the greatest potential for compromising a user’s personal privacy?
+
 A: A group of cookies stored by the user’s Web browser
 * Reflection: The aggregation of information in browser cookies can be used by websites that the user visits to track the user and collect information about the user.
 
 **Q28**: Which of the following is a true statement about data compression?
+
 A: There are trade-offs involved in choosing a compression technique for storing and transmitting data.
 
 **Q32**: Error in countNumOccurences procedure
@@ -153,10 +157,13 @@ A: Moving the statement in line 5 so that it appears between lines 2 and 3
 ![image](https://user-images.githubusercontent.com/89219495/164559182-da716150-b7aa-4438-9b53-b5c3847400ac.png)
 A: x = 3, y = 2, z = 1
 
+* Reflection: These values yield the incorrect value of max. It would make the max be equal to 1. 
+
 **Q39**: minimize execution time using parallel computing
 ![image](https://user-images.githubusercontent.com/89219495/164559205-57d82b7f-1e93-4141-9434-dd8d38ef5f09.png)
 
-A: Take the two shortest execution times and add them - 30+50=80 seconds
+A: 80 seconds
+* Reflection: For parallel computing, I can find the execution time by taking the two shortest execution times and adding them together - 30+50=80 seconds
 
 **Other topics to review/Additional notes:**
 * Open protocols provide a way to standardize data transmission between different devices.
