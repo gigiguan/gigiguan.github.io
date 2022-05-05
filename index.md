@@ -20,7 +20,6 @@ title: home
     <td><a href="https://github.com/gigiguan/gigiguan.github.io/issues/9">Review Ticket</a></td>
   </tr>
 
-<table>
   <tr>
     <td>5</td>
     <td>April 25 - 02 </td>
