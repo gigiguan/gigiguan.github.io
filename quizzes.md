@@ -1,5 +1,5 @@
 ---
-title: Proctored MCQ 1,2,3 Corrections
+title: Proctored MCQ 1,2,3,5 Corrections
 ---
   <div id="video_wrapper">
     <video autoplay loop>
@@ -7,6 +7,79 @@ title: Proctored MCQ 1,2,3 Corrections
     </video>
   </div>
   
+### **Quiz 5: Score 42/50**
+**Q4 What can be represented with a single binary digit**
+
+Which of the following can be represented by a single binary digit?
+
+A: The remainder when dividing a whole number by 2; The value of a Boolean variable
+* Explanation: When dividing a whole number (0, 1, 2, 3, …) by 2, the remainder will always be 0 or 1. A binary digit, by its definition, stores 0 or 1.; The volume of a car radio can have many possible values between the lowest possible setting and the highest
+possible setting. Binary digits can only store two possible values: 0 or 1.
+* Reflection: The volume of car radio is incorrect because the volume of a car radio can have many possible values between the lowest possible setting and the highest possible setting. Binary digits can only store two possible values: 0 or 1.
+
+**Q15 Comparing loop algorithms**
+
+![image](https://user-images.githubusercontent.com/89219495/167027889-ab4f6b05-e940-4163-80ea-afe8a46701e8.png)
+![image](https://user-images.githubusercontent.com/89219495/167027926-e30fabf5-2cbc-4eae-b511-fc97ba5f82cd.png)
+
+A: Program A and program B display the same number of values, but the values differ.
+* Explanation: The programs each display ten values, but each value displayed by program B is one greater than the
+corresponding value from program A. Program A displays 1 2 3 4 5 6 7 8 9 10 and program B displays  2 3 4 5 6 7 8 9 10 11.
+* Reflection: Program A and program B display a different number of values is incorrect; Both programs display ten values.
+
+**Q21 Video-streaming Web site uses 32-bit integer**
+
+A video-streaming Web site uses 32-bit integers to count the number of times each video has been played. In anticipation of some videos being played more times than can be represented with 32 bits, the Web site is planning to change to 64-bit integers for the counter. Which of the following best describes the result of using 64-bit integers instead of 32-bit integers?
+
+A: 2^32 times as many values can be represented.
+
+* Explanation: Bit integer always 2 to the power of the number.
+
+**Q27 Demonstrate a problem is undecidable**
+
+A student wants to determine whether a certain problem is undecidable. Which of the following will demonstrate that the problem is undecidable?
+
+A: Show that for one instance of the problem, no algorithm can be written that is capable of providing a correct yes-or-no answer.
+* Explanation: A decidable problem is one for which an algorithm can be constructed to produce a correct output for all inputs. If, for one instance of the problem, this is not possible, then this problem cannot be decidable. Therefore, it must be undecidable.
+* Reflection: The statement "Show that for one instance of the problem, a heuristic is needed to write an algorithm that is capable of providing a correct yes-or-no answer" does not provide enough information to conclude that the problem is undecidable. This states that a heuristic is used for one instance of the problem. If it could be shown that an algorithm can be constructed that is always capable of providing a correct yes-or-no answer for all other instances of this problem, then this problem would be decidable.
+
+**Q35 True statement about the network **
+
+The figure below represents a network of physically linked devices labeled A through I. A line between two devices indicates that the devices can communicate directly with each other. Any information sent between two devices that are not directly connected must go through at least one other device. For example, in the network represented below, information can be sent directly between A and B, but information sent between devices A and G must go through other devices.
+
+![image](https://user-images.githubusercontent.com/89219495/167029411-83557749-ce0f-47da-81af-fe1aaebcf9da.png)
+
+Which of the following statements is true about the network?
+
+A: If devices B and F fail, then device A will not be able to communicate with device G.
+* Explanation: If devices B and F fail, then devices E, G, and H will become isolated from devices A, C, D, and I. Therefore, device A will be unable to communicate with device G.
+* Reflection: "Information sent from device A to device D can use at most two unique paths." is incorrect because there are many possible paths between devices A and D, including A-B-D, A-C-D, A-C-F-D, and A-B-E-F-D.
+
+**Q36 Transfer a file on a Web server**
+
+A user enters a Web address in a browser, and a request for a file is sent to a Web server. Which of the following best describes how the file is sent to the user?
+
+A: The file is broken into packets for transmission. The packets must be reassembled upon receipt.
+* Explanation: Digital data on the Internet is sent by breaking data into blocks of bits called packets. The packets are reassembled by the user’s computer.
+* Reflection: "The server attempts to connect directly to the user’s computer. If the connection is successful, the entire file is sent. If the connection is unsuccessful, an error message is sent to the user." is incorrec because the server does not attempt to connect directly to the user’s computer. Rather, packets are sent via routers, and the packets may take different paths to get to the user’s computer. If one packet’s journey to the user is unsuccessful, that packet is resent by the server.
+
+**Q43 True statement about the Internet**
+
+Which of the following statements about the Internet is true?
+
+A: The Internet is designed to scale to support an increasing number of users.
+* Explanation: The Internet was designed to be scalable, using open protocols to easily connect additional computing devices to the network.
+* Reflection: "The Internet is a computer network that uses proprietary communication protocols." is incorrect. The Internet uses standardized, open (nonproprietary) communication protocols.
+
+**Q48 Role of certificate authorities **
+
+Which of the following best explains how a certificate authority is used in protecting data?
+
+A: A **certificate authority** verifies the authenticity of encryption keys used in secured communications.
+* Explanation: Certificate authorities are entities that issue digital certificates, which are used to certify the ownership of public keys.
+* Reflection: Certificate authorities do not verify the safety of Web sites.
+
+
 ### **Quiz 3: Score 41/50**
 **Q7 Result of iteration statements**
 ![image](https://user-images.githubusercontent.com/89219495/165630253-946768b3-7b2a-4e96-a813-f982c26a7361.png)
