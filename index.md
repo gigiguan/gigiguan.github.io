@@ -17,7 +17,7 @@ title: home
   <tr>
     <td>7</td>
     <td>May 11 - 18 </td>
-    <td>PBL Website Individual Commits (5 Hr)</td>
+    <td>Sponsor Website Individual Commits</td>
     <td><a href="https://github.com/gigiguan/gigiguan.github.io/issues/10">Review Ticket</a></td>
   </tr>
   
