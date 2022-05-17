@@ -9,7 +9,7 @@ title: home
   
   
 
-[Link to Review Ticket](https://github.com/gigiguan/gigiguan.github.io/issues/7)
+[Link to Review Ticket](https://github.com/gigiguan/gigiguan.github.io/issues/10)
 
 ## **Timebox**
 <table>
